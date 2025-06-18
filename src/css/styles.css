@@ -70,6 +70,7 @@ main {
   border-radius: 50%;
   perspective: 1000px;
   transform: rotateZ(45deg);
+  display: block;
 }
 
 .loader.hidden {

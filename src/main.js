@@ -12,7 +12,7 @@ const main = document.querySelector('main');
 let loader = document.querySelector('.loader');
 
 if (!loader) {
-  loader = document.createElement('div');
+  loader = document.createElement('span');
   loader.className = 'loader hidden';
   main.insertBefore(loader, main.querySelector('.gallery'));
 }
